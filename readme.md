@@ -8,17 +8,18 @@
 
 ## Descrição do Projeto
 
-<p align="justify">Este projeto tem a finalidade de demonstrar a comunicação utilizando o framework gRPC através de um Client e seu Server, utilizando as seguintes formas de comunicação: <b>Unary</b>, <b>Server Streaming</b>, <b>Client Streaming</b> e <b>Streaming Bi-Direcional</b>.</p>
+<p align="justify">.</p>Este projeto tem a finalidade de demonstrar o uso do GraphQL com Go, utilizando resolver, mutations e queries, A biblioteca utilizada para construir o server GraphQL é o <b>gqlgen</b>.<p>
 
 ### Tecnologias
 
 - [GoLang](https://go.dev/)
 - [GraphQL](https://graphql.org/)
+- [gqlgen](https://github.com/99designs/gqlgen)
 
 > Status do Projeto: Em desenvolvimento :warning:
 
 ### Execução do Projeto
 
 ```
-go run 
+go run server.go
 ```
